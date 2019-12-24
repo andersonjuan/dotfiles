@@ -9,11 +9,11 @@ My personal dotfiles
 2. Run the following commands:
 
 ```bash
-cat ~/dotfiles/vim/init.vim > .vimrc
+cat ~/dotfiles/init.vim > .vimrc
 
 # and then run
 
-cp ~/dotfiles/vim/plugged.vim ~/.vim/autoload
+cp ~/dotfiles/plugged.vim ~/.vim/autoload
 ```
 3. Start `vim`, you'll see some errors. Run `:PlugInstall`. You'll see a lot of installs take place
 
@@ -31,8 +31,4 @@ let g:go_bin_path = 'path/to/your/go/bin
 " the path may be something like C:/Users/go/bin for windows
 " and similiar for linux, just without the C:
 ```
-=======
-### My Dotfiles
 
-This repository contains my dotfiles and instructions for configuring 
-both `nvim` and `vim` with them.
