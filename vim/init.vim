@@ -26,6 +26,7 @@ Plug 'othree/html5.vim'
 Plug 'neomake/neomake'
 Plug 'zchee/deoplete-jedi'
 Plug 'hdima/python-syntax'
+Plug 'elmcast/elm-vim'
 Plug 'pangloss/vim-javascript'
 
 call plug#end()
