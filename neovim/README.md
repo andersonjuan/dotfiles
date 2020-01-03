@@ -16,10 +16,10 @@ cp ~/dotfiles/neovim/init.vim ~/AppData/Local/nvim/init.vim
 
 ```bash
 # for Unix systems
-cp ~/dotfiles/neovim/plugged.vim ~/.local/share/nvim/site/autoload
+cp ~/dotfiles/neovim/plug.vim ~/.local/share/nvim/site/autoload
 
 # for Windows system
-cp ~/dotfiles/neovim/plugged.vim ~\AppData\Local\nvim\autoload
+cp ~\dotfiles\neovim\plug.vim ~\AppData\Local\nvim\autoload
 ```
 
 3. Now start `nvim`, you'll see some errors. Run `:PlugInstall` to install the plug-ins.
