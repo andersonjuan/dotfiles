@@ -28,6 +28,7 @@ Plug 'zchee/deoplete-jedi'
 Plug 'hdima/python-syntax'
 Plug 'elmcast/elm-vim'
 Plug 'pangloss/vim-javascript'
+Plug 'elmcast/elm-vim'
 
 call plug#end()
 
