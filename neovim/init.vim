@@ -29,6 +29,7 @@ Plug 'hdima/python-syntax'
 Plug 'elmcast/elm-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'elmcast/elm-vim'
+Plug 'octol/vim-cpp-enhanced-highlight'
 
 call plug#end()
 
